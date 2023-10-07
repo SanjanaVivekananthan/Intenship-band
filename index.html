@@ -17,31 +17,38 @@
   </style>
 </head>
 <body>
-   <div class="container-fluid">
-    <div class="row bg-dark text-white">
-        <div class="col-9">
-         <h3 >Radio Head</h3>
-        </div>
-        <div class="col-12 col-sm-3">
-         <ul class="nav ">
-             <li class="nav-item">
-               <a class="nav-link" href="index.html">HOME</a>
-             </li>
-             <li class="nav-item">
-               <a class="nav-link" href="#about">ABOUT US</a>
-             </li>
-             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#">MEMBERS</a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#A">Thomas</a></li>
-                  <li><a class="dropdown-item" href="#B">Johnny</a></li>
-                  <li><a class="dropdown-item" href="#C">Harry</a></li>
-                </ul>
-              </li>
-           </ul>
-        </div>
-     </div>
-   </div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Radiohead</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#thetarget">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="thetarget">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Contactus</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#A">Thomas</a></li>
+              <li><a class="dropdown-item" href="#B">Johnny</a></li>
+              <li><a class="dropdown-item" href="#C">Harry</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Review</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
    <div class="landing">
     <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
